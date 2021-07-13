@@ -7,7 +7,7 @@ public class Main8 {
         Main8 T = new Main8();
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();
-        System.out.println(T.solution2(s));
+        System.out.println(T.solution(s));
 
     }
     public String solution(String str) {
