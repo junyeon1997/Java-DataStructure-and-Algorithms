@@ -1,0 +1,36 @@
+package inflearn;
+
+import java.util.Scanner;
+
+public class Main15 {
+    public static void main(String[] args) {
+        Main15 T = new Main15();
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[] a = new int[n];
+        int[] b = new int[n];
+        for(int i=0; i<n; i++) {
+            a[i] = sc.nextInt();
+        }
+        for(int i=0; i<n; i++) {
+            b[i] = sc.nextInt();
+        }
+
+        for (char c : T.solution(n, a, b).toCharArray()) {
+            System.out.println(c);
+        }
+    }
+
+    public String  solution(int n, int[] a, int[] b) {
+        String s="";
+        for(int i=0; i<n; i++) {
+            if(a[i]==b[i]) s+="D";
+            else if (a[i]==1&&b[i]==3) s+="A";
+            else if (a[i]==2&&b[i]==1) s+="A";
+            else if (a[i]==3&&b[i]==2) s+="A";
+            else s+="B";
+    }
+        return s;
+
+    }
+}
