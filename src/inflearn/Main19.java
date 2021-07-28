@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main19 {
     public static void main(String[] args) {
-        Main20 T = new Main20();
+        Main19 T = new Main19();
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[] arr = new int[n];
