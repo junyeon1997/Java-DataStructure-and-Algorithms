@@ -19,11 +19,10 @@ public class Main26 {
             arr2[i]=sc.nextInt();
         }
         for(Integer k : T.solution(n,m,arr1,arr2)) {
-            System.out.print(k + " ");;
+            System.out.print(k + " ");
 
         }
     }
-
     private ArrayList<Integer> solution(int n, int m, int[] arr1, int[] arr2) {
         ArrayList<Integer> arr = new ArrayList<>();
         Arrays.sort(arr1);
