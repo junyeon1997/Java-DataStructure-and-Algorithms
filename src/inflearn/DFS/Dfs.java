@@ -1,4 +1,4 @@
-package inflearn;
+package inflearn.DFS;
 class Node {
     int data;
     Node lt, rt;
@@ -8,7 +8,7 @@ class Node {
     }
 }
 
-public class Main32 {
+public class Dfs {
     Node root;
     public void DFS(Node root) {
         if (root==null) return;
@@ -20,7 +20,7 @@ public class Main32 {
     }
 
     public static void main(String[] args) {
-        Main32 tree = new Main32();
+        Dfs tree = new Dfs();
         tree.root=new Node(1);
         tree.root.lt=new Node(2);
         tree.root.rt=new Node(3);
