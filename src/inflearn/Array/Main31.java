@@ -1,4 +1,4 @@
-package inflearn;
+package inflearn.Array;
 
 public class Main31{
     static int[] fibo; //메모이제이션을 위한 배열 선언

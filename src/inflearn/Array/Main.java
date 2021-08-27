@@ -1,6 +1,5 @@
-package inflearn;
+package inflearn.Array;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class Main {
