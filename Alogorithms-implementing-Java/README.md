@@ -1,4 +1,4 @@
-# Alogorithms_implementing_Java
+# DataStructure/Algorithms solving problems
 
 ## 01. 이진탐색(BinarySearch)
 * 여러 개의 수가 정렬된 순서로 있을 때 특정한 수를 찾는 방법
