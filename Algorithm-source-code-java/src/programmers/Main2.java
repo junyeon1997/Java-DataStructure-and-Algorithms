@@ -1,11 +1,23 @@
 package programmers;
 
-import java.util.ArrayList;
-import java.util.Iterator;
+import java.util.*;
 
-public class Main2 {
-    public static void main(String[] args) {
+class Solution {
+    public String solution(String[] participant, String[] completion) {
+        String answer = "";
+        HashMap<String, Integer> hashMap = new HashMap<>();
+        for(String x : participant) {
+            hashMap.put(x, hashMap.getOrDefault(x, 0) + 1);
+        }
+        for(String x : completion) {
+            hashMap.put(x, hashMap.getOrDefault(x, 0) - 1);
+        }
 
-
+        for(String x : hashMap.keySet()){
+            if(hashMap.get(x)>0){
+                answer=x;
+            }
+        }
+        return answer;
     }
 }
