@@ -1,7 +1,7 @@
 //프로그래머스 연습문제 2016년(구현,수학,배열)
 package programmers;
 
-class Solution {
+class Main {
     public String solution(int a, int b) {
         String answer = "";
         int sum = 0;
@@ -18,10 +18,3 @@ class Solution {
     }
 }
 
-
-public class Main {
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-        System.out.println(solution.solution(1, 20));
-    }
-}

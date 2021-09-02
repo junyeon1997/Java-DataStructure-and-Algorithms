@@ -2,7 +2,7 @@ package programmers;
 
 import java.util.*;
 
-class Solution {
+class Main2 {
     public String solution(String[] participant, String[] completion) {
         String answer = "";
         HashMap<String, Integer> hashMap = new HashMap<>();
